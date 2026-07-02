@@ -7,29 +7,6 @@
 
 An end-to-end data analytics and machine learning project focused on identifying bank customers at risk of churning. This project integrates data cleaning, exploratory data analysis (EDA), database querying (SQL), predictive modeling (Python), and visual storytelling (Power BI) to deliver actionable business retention strategies — built on a real 10,000-customer dataset.
 
-## 📁 Repository Structure
-
-```
-Bank-Customer-Churn-Analytics/
-│── data/
-│   ├── Customer.csv                  # Raw dataset (10,000 customers)
-│   └── cleaned_customer.csv          # Preprocessed and scaled dataset
-│── notebooks/
-│   └── churn_analysis.ipynb          # Python Jupyter Notebook (Cleaning, EDA, ML models)
-│── sql/
-│   └── churn_queries.sql             # SQL metrics analysis for PostgreSQL
-│── dashboard/
-│   └── README.md                     # Power BI setup & DAX formulas
-│── images/
-│   ├── churn_distribution.png        # EDA: Churn status count
-│   ├── age_vs_churn.png              # EDA: Age histogram
-│   ├── balance_vs_churn.png          # EDA: Balance boxplot
-│   ├── correlation_heatmap.png       # EDA: Heatmap matrix
-│   ├── roc_curve.png                 # ML: ROC-AUC curves comparison
-│   └── feature_importances.png       # ML: Random Forest feature ranking
-│── requirements.txt                  # Python dependencies
-└── README.md                         # Master documentation (this file)
-```
 
 ## 📈 Executive Summary & Key Insights
 
